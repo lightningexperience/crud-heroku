@@ -4,9 +4,9 @@
   "description": "Crud Node.js",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "start": "node index.js"
   },
-  "author": "M Fikri",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
