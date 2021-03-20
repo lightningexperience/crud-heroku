@@ -72,7 +72,8 @@ app.post('/delete',(req, res) => {
   });
 });
  
-//server listening
-app.listen(8000, () => {
-  console.log('Server is running at port 8000');
+// starting server
+app.set('port', process.env.PORT || 8000);
+app.listen(app.get('port'), function () {
+    console.log('Express server listening on port ' + app.get('port'));
 });
